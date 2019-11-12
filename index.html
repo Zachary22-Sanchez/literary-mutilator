@@ -9,22 +9,36 @@
 
 <h2>Change color of text on click</h2>
 <p id="change">
-	<a href="#" onclick="changeColor('change'); return false;">Change Color</a>
+	<button type="button" onclick="changeColor('change');">Change Color</button>
 	Spicy jalapeno bacon ipsum dolor amet ham hock officia ex leberkas alcatra picanha. Incididunt anim chuck, ea swine
-boudin spare ribs venison qui eiusmod meatloaf short loin magna cow. Tenderloin mollit esse strip steak est, corned
-	beef quis andouille. Ex pancetta ullamco officia elit shoulder t-bone tail ut id ad prosciutto flank.</p>
+	boudin spare ribs venison qui eiusmod meatloaf short loin magna cow. Tenderloin mollit esse strip steak est, corned
+	beef quis andouille. Ex pancetta ullamco officia elit shoulder t-bone tail ut id ad prosciutto flank.
+</p>
 
-<p>Corned beef nostrud biltong ullamco, ground round beef laboris jerky ham hock aute. Enim fatback beef ribs, aliqua
-anim chuck leberkas picanha qui cillum. Ipsum corned beef short ribs et tail ball tip veniam drumstick turkey ribeye
-aliquip leberkas. Doner frankfurter irure velit sunt ham hock picanha nulla salami aliqua. Kielbasa laboris porchetta
-sed. Hamburger incididunt laborum culpa consequat adipisicing. Pork et sed, brisket swine proident fugiat corned beef
-	ipsum ribeye shank irure.</p>
+<h2>Change the text font</h2>
+<p id="texter">
+	<button type="button" onclick="changeFont('texter');">Change text</button>
+	Corned beef nostrud biltong ullamco, ground round beef laboris jerky ham hock aute. Enim fatback beef ribs, aliqua
+	anim chuck leberkas picanha qui cillum. Ipsum corned beef short ribs et tail ball tip veniam drumstick turkey ribeye
+	aliquip leberkas. Doner frankfurter irure velit sunt ham hock picanha nulla salami aliqua. Kielbasa laboris porchetta
+	sed. Hamburger incididunt laborum culpa consequat adipisicing. Pork et sed, brisket swine proident fugiat corned beef
+	ipsum ribeye shank irure.
+</p>
 
-<p>Ex commodo brisket filet mignon, pariatur biltong pork loin ball tip fatback. Quis ex est tenderloin, ham ullamco lorem
-proident tri-tip bacon commodo. Mollit landjaeger non enim id cillum. Meatball picanha capicola spare ribs, chuck eu
-consequat strip steak minim jowl dolor. Pork belly velit elit venison ut, ut ut officia cupim cupidatat t-bone. Venison
-nostrud et tail t-bone prosciutto andouille aliqua tri-tip occaecat alcatra. Quis ex beef ribs, deserunt corned beef non
-	picanha andouille velit fatback ullamco flank incididunt meatball porchetta.</p>
+<h2>Find and Replace text</h2>
+	<label for="find">Find: </label>
+	<input type="text" id="find"/>
+	<lable for="replace">Replace:</lable>
+	<input type="replace" id="replace"/>
+		<button id="changeText" onclick="findReplace()">Change Text</button>
+			<p id="input">Ex commodo brisket filet mignon, pariatur biltong pork loin ball tip fatback. Quis ex est tenderloin, ham ullamco
+			lorem
+			proident tri-tip bacon commodo. Mollit landjaeger non enim id cillum. Meatball picanha capicola spare ribs, chuck eu
+			consequat strip steak minim jowl dolor. Pork belly velit elit venison ut, ut ut officia cupim cupidatat t-bone.
+			Venison
+			nostrud et tail t-bone prosciutto andouille aliqua tri-tip occaecat alcatra. Quis ex beef ribs, deserunt corned beef
+			non
+			picanha andouille velit fatback ullamco flank incididunt meatball porchetta.</p>
 
 </body>
 </html>
